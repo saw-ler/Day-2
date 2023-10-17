@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div-1{
+    position: fixed;
+    background-color: green;
+    width: 300px;
+    height: 300px;
+    top: 20px;
+    border-radius: 50px;
+    
+}
+.div-2{
+    position: absolute;
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+    border: 5px black solid;
+    border-radius: 50px;
+}
+body{
+    height: 2000px;
+}
+.div-3{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: aliceblue;
+    margin: 100px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+}
+body{
+    background-image: url("https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    background-position: top;
+    background-color: bisque;
+}
+.form-div{
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px #888888;
+    padding: 50px;
+    text-align: center;
+    padding: 50px;
+    opacity: 0.8;
+    
+}
+
+input{
+    margin: 10px 0px;
+    padding: 8px;
+   
+  
+}
+select{
+    margin: 10px 0px;
+    padding: 8px;
+    
+}
+button{
+    padding: 8px;
+    margin: 10px 0px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+       
+}
+button:hover{
+    background-color: blueviolet;
+}
+form{
+    width: 200px;
+    margin: auto;
+}
+img{
+    width: 100px;
+    height: 100px;
+   padding: 8px;
+   margin-top:50px;
+   display: block;
+   
+}
+
